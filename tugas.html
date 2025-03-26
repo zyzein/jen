@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Universitas Hamzawadi</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header Section -->
+        <header>
+            <h1>Selamat Datang di Universitas Hamzawadi</h1>
+            <img src="image/potouniv.jpeg" alt="Universitas Hamzawadi" class="header-img">
+            <p>BERSAING DAN BERBUDAYA SANTRI</p>
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/orKxIZZEOTg?si=KHDpGyrc0Q0hnSDZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </header>
+
+        <!-- Profil Section -->
+        <section class="profile">
+            <h2>Profil Universitas Hamzawadi</h2>
+            <div class="profile-content">
+                <img src="image/potologo.png" alt="Rektorat Universitas">
+                <p>Universitas Hamzanwadi mulai berdiri secara resmi pada tanggal 23 September 2016 berdasarkan Keputusan Menteri Riset, Teknologi, dan Pendidikan Tinggi Nomor 428/KPT/I/2016 Tentang Penggabungan Sekolah Tinggi Keguruan dan Ilmu Pendidikan Hamzanwadi Selong dan Sekolah Tinggi Teknologi Hamzanwadi Selong menjadi Universitas Hamzanwadi.</p>
+            </div>
+        </section>
+
+        <!-- Mata Kuliah Section -->
+        <section class="courses">
+            <h2>Daftar Mata Kuliah</h2>
+            <table>
+                <tr>
+                    <th>Mata Kuliah</th>
+                    <th>SKS</th>
+                    <th>Pengampu</th>
+                </tr>
+                <tr>
+                    <td>Pemrograman Web</td>
+                    <td>4</td>
+                    <td>HERI KUSWANTO</td>
+                </tr>
+                <!-- Tambahkan baris lainnya -->
+            </table>
+        </section>
+
+       <!-- Gallery Section -->
+        <section class="gallery">
+         <h3>Galeri Universitas Hamzanwadi</h3>
+        <div class="gallery-container">
+        <div class="photo-item">
+            <img src="image/KEGIATAN 1.jpg" alt="Foto 1" loading="lazy">
+        </div>
+        <div class="photo-item">
+            <img src="image/KEGIATAN 2.jpg" alt="Foto 2" loading="lazy">
+        </div>
+        <div class="photo-item">
+            <img src="image/KEGIATAN333.jpg" alt="Foto 3" loading="lazy">
+        </div>
+                <div class="gallery-item">
+                    <video controls>
+                        <source src="vid/vid 1.mp4" type="video/mp4">
+                    </video>
+                </div>
+        </section>
+
+        <!-- Form Section -->
+        <section class="registration">
+            <h4>Formulir Pendaftaran</h4>
+            <form>
+                <label for="name">Nama Lengkap:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="phone">No. HP:</label>
+                <input type="tel" id="phone" name="phone" required>
+
+                <button type="submit">Daftar Sekarang</button>
+            </form>
+        </section>
+    </div>
+</body>
+</html>
